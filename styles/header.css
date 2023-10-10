@@ -10,7 +10,7 @@
 .cabecalho{
     background-color: var(--branco);
     display: flex;
-    justify-items: space-between;
+    justify-content: space-between;
     align-items: center;
     position: relative;
 }
@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.container-img {
+.container-imagem {
     padding: 1em;
 }
 
@@ -35,13 +35,15 @@
     display: block;
 }
 
-.lista-menu-titulo, .lista-menu-item {
+.lista-menu-titulo,
+ .lista-menu-item {
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
@@ -50,4 +52,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container-botao {
+    display: none;
 }
